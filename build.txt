@@ -1,0 +1,24 @@
+   11  curl https://install.meteor.com/ | sh
+   19  which meteor
+   31  sudo ROOT_URL=https://45.79.186.175:443 MONGO_URL=mongodb://localhost:27017/tweetzz meteor --port=80 --mobile-server=https://45.79.186.175:443  --unsafe-perm
+   78  history | grep meteor
+   79  sudo ROOT_URL=https://raudeo.com:443 MONGO_URL=mongodb://localhost:27017/tweetzz meteor --port=80 --mobile-server=https://raudeo.com:443  --unsafe-perm
+   80  meteor build --directory ../doubleout --server https://raudeo.com:443 --debug
+   81  sudo ROOT_URL=https://raudeo.com:443 MONGO_URL=mongodb://localhost:27017/tweetzz meteor --port=80 --mobile-server=https://raudeo.com:443  --unsafe-perm
+   82  sudo chown -Rh spowage .meteor/local
+   83  meteor build --directory ../doubleout --server https://raudeo.com:443 --debug
+   89  sudo chown spowage .meteorsession
+   90  sudo chgrp spowage .meteorsession
+   98  meteor build --directory ../doubleout --server https://raudeo.com:443 --debug
+  135  history | grep meteor
+  136  meteor build --directory ../doubleout --server https://raudeo.com:443 --debug
+  143  history | grep meteor
+  144  meteor build --directory ../doubleout --server https://raudeo.com:443 --debug
+  227  history | grep meteor
+  228  meteor build --directory ../doubleout --server https://raudeo.com:443 --debug
+  358  meteor create twitterlogin
+  363  meteor add accounts-ui
+  364  meteor add accounts-twitter
+  366  history | grep meteor
+  367  meteor build --directory ../twitterout --server https://raudeo.com:443 --debug
+  368  history | grep meteor >> build.txt
